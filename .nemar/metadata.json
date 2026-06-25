@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on004860",
-  "source": "openneuro",
-  "source_id": "ds004860",
+  "pipeline_stage": "validated",
   "title": "Investigating the cognitive conflict triggered by moral judgment of accidental harm : an event-related potentials study",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Flora Schwartz": {},
     "Radouane El-Yagoubi": {},
@@ -11,21 +11,61 @@
     "Pierre-Vincent Paubel": {},
     "Bastien Tremoliere": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004860.v1.0.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004860",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004860",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "4.1 GB (32 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "This event-related potentials (ERP) study investigates cognitive conflict during moral judgment of accidental harm using EEG recordings from 31 participants. Participants performed a combined semantic and moral judgment task in which they evaluated scenarios involving intentional or accidental harm transgressions and judged the semantic congruency of target words. The orthogonal manipulation of agent intention and semantic congruency across four conditions, combined with punishment ratings for a subset of trials, enables examination of how moral and semantic processing interact in the brain.",
+  "methods_description": "EEG data were collected from 31 participants during a third-party moral judgment task integrated with a semantic judgment task (N400 paradigm). Participants listened to moral scenarios featuring intentional or accidental harm and judged whether visually presented target words were congruent with the scenario. The agent's intention and semantic congruency were manipulated orthogonally to create four within-subject conditions. For 20% of trials, participants provided punishment ratings using a joystick.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "moral judgment"
+    },
+    {
+      "term": "cognitive conflict"
+    },
+    {
+      "term": "N400"
+    },
+    {
+      "term": "semantic processing"
+    },
+    {
+      "term": "intention attribution"
+    }
+  ],
+  "source_hash": "82a1845c1c992ead1a39eefa0f6277e7e0d59f90c30327c33d87c5a47386bf24"
 }
