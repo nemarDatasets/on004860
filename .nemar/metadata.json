@@ -1,0 +1,31 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004860",
+  "source": "openneuro",
+  "source_id": "ds004860",
+  "title": "Investigating the cognitive conflict triggered by moral judgment of accidental harm : an event-related potentials study",
+  "authors": {
+    "Flora Schwartz": {},
+    "Radouane El-Yagoubi": {},
+    "Julie Cayron": {},
+    "Pierre-Vincent Paubel": {},
+    "Bastien Tremoliere": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004860.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.8.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ]
+}
